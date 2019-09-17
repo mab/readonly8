@@ -1,0 +1,9 @@
+input[type='text'] {
+	&:read-only {
+		border: none;
+	}
+	
+	&:not(:read-only) {
+		border: 1px solid red;
+	}
+}
